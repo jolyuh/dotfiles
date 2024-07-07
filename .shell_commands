@@ -1,0 +1,17 @@
+#!/bin/zsh
+
+cd_home() {
+    cd ~
+}
+
+edit_shell_commands() {
+    nano ~/.shell_commands
+}
+
+edit_zshrc() {
+    nano ~/.zshrc
+}
+
+source_zshrc() {
+    source ~/.zshrc
+}
