@@ -1,0 +1,9 @@
+# Ignore all files and folders
+*
+
+# Except the following:
+!.zshrc
+!.zsh_profile
+!.shell_commands
+!.config
+!.gitignore
