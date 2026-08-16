@@ -1,9 +1,6 @@
-require "paq" {
-    "savq/paq-nvim", -- Let Paq manage itself
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
-    "neovim/nvim-lspconfig",
+require("config");
+require("plugins");
 
-    { "lervag/vimtex", opt = true }, -- Use braces when passing options
-
-    { 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
-}
