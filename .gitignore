@@ -2,8 +2,14 @@
 *
 
 # Except the following:
+
+# Root files
 !.zshrc
 !.zsh_profile
 !.shell_commands
-!.config
 !.gitignore
+
+# Folders
+!.config/
+!.config/nvim/
+!.config/nvim/**
